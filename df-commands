@@ -1,0 +1,2 @@
+> df -h | grep username --> Mountpoints enabled for that user
+> 
