@@ -1,3 +1,4 @@
+Syntax: df [options] [filesystems]
 > df                           --> It is used to display information about total space and available/free space on a file system. (Filesystem, blocks, Used, Available, Use%, Mounted on)
 > df --help                    --> And for more help, you can use –help option
 > df ‘-i’ or ‘–inodes’         --> Lists inode information instead of block usage.
