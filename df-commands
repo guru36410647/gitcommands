@@ -1,2 +1,11 @@
-> df -h | grep username --> Mountpoints enabled for that user
-> 
+> df                           --> It is used to display information about total space and available/free space on a file system. (Filesystem, blocks, Used, Available, Use%, Mounted on)
+> df --help                    --> And for more help, you can use –help option
+> df ‘-i’ or ‘–inodes’         --> Lists inode information instead of block usage.
+> df -a                        --> If you want to display all the file system
+> df -T filename.txt           --> Use -T option to display file type (Ex: ext4, )
+> df filename.txt              --> It will show the mount information of that particular file.
+> df ‘-h’ or ‘–human-readable’ --> Prints sizes in a human-readable format using power of 1024.(Ex: KB, MB, GB)
+> df -h | grep username        --> What are the mountpoints enabled for that user
+> df -h /dev/sda1              --> To display disk space information for a specific file system
+> df --sort=-p                 --> Sort the df output to see the file systems with the most or least disk space usage
+> df -x tmpfs                  --> To exclude certain file systems from the df command output
